@@ -41,3 +41,12 @@ These instructions apply to every change made in this repository.
 - If a repeated maintenance task is stable and genuinely useful, a documented workflow may be added. Do not add speculative automation.
 
 See `docs/heartlessaus-development.md` for the repository overview, current boundaries, Arch/KDE development setup, and test commands.
+
+## Feature planning and pinboard
+
+- Read `docs/feature-pinboard.md` before starting feature analysis or implementation.
+- Treat the pinboard as the shared status and dependency map for planned work. Update it when a feature moves between proposed, researching, ready, implementing, testing, blocked, or complete.
+- Keep branch-specific investigation and acceptance criteria in `docs/plans/`. Link those plans from the pinboard instead of duplicating detailed notes across documents.
+- A planning or TODO commit does not authorize implementation. Do not begin feature code until the repository owner accepts the plan or explicitly asks for implementation.
+- New input behavior must be represented as user-configurable actions, thresholds, or mappings where practical. Do not embed personal shortcut choices in the event pipeline.
+- For mouse gestures involving multiple inputs, document event ownership, suppression, cancellation, fallback behavior, and device reconnection behavior before coding.

@@ -59,6 +59,7 @@ nav:
   - Troubleshooting: troubleshooting.md
   - Architecture: architecture.md
   - HeartlessAUS Development: heartlessaus-development.md
+  - HeartlessAUS Feature Pinboard: feature-pinboard.md
   - FAQ: faq.md
 
 markdown_extensions:
