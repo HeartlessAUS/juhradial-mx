@@ -35,7 +35,7 @@ Status vocabulary:
 ### Configurable input actions
 
 - **Branch:** `feature/configurable-input-actions`
-- **Status:** Proposed
+- **Status:** Ready; plan accepted for implementation on 2026-07-19
 - **Purpose:** Provide one reusable action representation for buttons, wheel directions, taps, holds, and chords.
 - **Required action kinds:** keyboard shortcut, mouse action, built-in action, command, D-Bus call, named integration hook, and disabled/no-op.
 - **GUI requirement:** action picker plus shortcut capture/editor; raw configuration editing must not be required.
@@ -135,3 +135,4 @@ These are ideas only; they do not have branches or implementation approval.
 | --- | --- |
 | 2026-07-19 | Planning is split into four branches with a shared configurable-action foundation. No feature implementation is authorized by the initial TODO commits. |
 | 2026-07-19 | No remote pushes are permitted until the repository owner reviews and accepts the local branch/commit set. |
+| 2026-07-19 | The repository owner accepted the branch plans and authorized implementation to begin on `feature/configurable-input-actions`. The dependent feature branches remain planning-only until their prerequisite is available and their implementation is requested. |

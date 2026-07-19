@@ -2,7 +2,31 @@
 
 Branch: `feature/configurable-input-actions`
 
-Status: planning only; implementation requires owner acceptance.
+Status: **Ready**. The repository owner accepted this plan on 2026-07-19 and authorized implementation to begin on this branch.
+
+## New-agent handoff
+
+Begin by reading, in order:
+
+1. `AGENTS.md`
+2. `docs/feature-pinboard.md`
+3. this plan
+4. `docs/architecture.md`
+5. `docs/configuration.md`
+
+Then inspect the current implementations listed under “Current path to inspect” before choosing the schema. Do not begin by adding the requested comma/period wheel shortcuts; this branch owns the reusable action foundation, while wheel behavior belongs to the dependent thumb-wheel branch.
+
+Recommended first implementation slice:
+
+1. Inventory the existing Rust and Python action representations and record the proposed consolidation in this document.
+2. Add a backward-compatible Rust action definition and deserialization tests while keeping legacy string button actions valid.
+3. Extract validation and execution boundaries without changing existing button behavior.
+4. Add the reusable GTK action editor and persistence tests.
+5. Only after the base path is stable, add punctuation-capable shortcut representation and Wayland injection coverage.
+
+Before the first code commit, resolve or clearly isolate the three acceptance questions below. If a choice would constrain keyboard layouts, command availability, or the future integration API, ask the repository owner rather than silently selecting it.
+
+The branch must remain usable at each commit: preserve defaults, avoid config churn, and keep existing radial/button actions working throughout the migration.
 
 ## Goal
 
