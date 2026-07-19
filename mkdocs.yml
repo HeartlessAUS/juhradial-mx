@@ -58,6 +58,7 @@ nav:
   - Compositor Support: compositor-support.md
   - Troubleshooting: troubleshooting.md
   - Architecture: architecture.md
+  - HeartlessAUS Development: heartlessaus-development.md
   - FAQ: faq.md
 
 markdown_extensions:
