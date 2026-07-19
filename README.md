@@ -29,6 +29,9 @@
 
 <br>
 
+> [!WARNING]
+> **Unofficial personal fork:** This `HeartlessAUS/juhradial-mx` repository is not the official JuhRadial MX project. It may include experimental features or changes tailored to the maintainer's hardware and configuration that are not suitable for other users. For general installation and support, consider using the [original JuhLabs repository](https://github.com/JuhLabs/juhradial-mx).
+
 <div align="center">
   <img src="assets/github/githubheader.png" width="100%" alt="JuhRadial MX Banner">
 </div>
